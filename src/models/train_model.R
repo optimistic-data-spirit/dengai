@@ -21,6 +21,5 @@ train <- training %>%
 
 model <- randomForest(total_cases ~ ., data = train, ntree = 500, mtry = 6, importance = TRUE)
 importance(model)
-varImpPlot(model)
 
 saveRDS(model, here("models", "trained_model_with_random_forest.rds"))
