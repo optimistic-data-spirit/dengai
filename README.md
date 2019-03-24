@@ -1,5 +1,4 @@
 # dengai
-==============================
 
 This project is a Drivendata competition on disease spread prediction based on the [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/).
 
@@ -70,3 +69,8 @@ mkdir -p data/{external,interim,processed,raw}
 
 ### Download the data
 Download the [data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/data/) and save locally in you `data/raw` folder without changing the file name.
+
+### Create the training dataset
+```bash
+make data
+```
