@@ -70,7 +70,7 @@ mkdir -p data/{external,interim,processed,raw}
 ### Download the data
 Download the [data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/data/) and save locally in you `data/raw` folder without changing the file name.
 
-### Create the training dataset
+### Generate clean training and testing datasets
 ```bash
 make data
 ```
