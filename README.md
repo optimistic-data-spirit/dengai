@@ -63,7 +63,10 @@ After you [added an ssh key](https://help.github.com/en/articles/adding-a-new-ss
 git clone git@github.com:optimistic-data-spirit/dengai.git
 ```
 
-Note that not all the above folders will be created as some folders, such as the data folder, are omitted. Refer to the .gitignore file for more details. Locally add the missing folder that you need.
+Note that the data and its sub-folders are omitted from this repo so you will have to locally create them on your own. The command to do this is: 
+```bash
+mkdir -p data/{external,interim,processed,raw}
+```
 
 ### Download the data
 Download the [data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/data/) and save locally in you `data/raw` folder without changing the file name.
