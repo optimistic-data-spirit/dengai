@@ -1,9 +1,9 @@
-dengai
+# dengai
 ==============================
 
-drivendata competition on disease spread prediction
+This project is a Drivendata competition on disease spread prediction based on the [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/).
 
-Project Organization
+## Project Organization
 ------------
 
     ├── LICENSE
@@ -54,4 +54,17 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## Getting started
+
+### Clone the repo
+
+After you [added an ssh key](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account) to your GitHub account:
+```bash
+git clone git@github.com:optimistic-data-spirit/dengai.git
+```
+
+Note that not all the above folders will be created as some folders, such as the data folder, are omitted. Refer to the .gitignore file for more details.
+
+Locally add the missing folder that you need
+
+Download the [data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/data/) and save locally in you `data/raw` folder without changing the file name.
