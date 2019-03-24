@@ -26,8 +26,12 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
 ## Make Dataset
-data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py
+#data: requirements
+#	$(PYTHON_INTERPRETER) src/data/make_dataset.py
+
+data:
+	Rscript src/data/merge_datasets.R
+	Rscript src/data/clean_data.R
 
 ## Delete all compiled Python files
 clean:
