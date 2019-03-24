@@ -2,7 +2,7 @@ library(tidyverse)
 library(randomForest)
 library(here)
 
-data <- read_csv(here("data", "processed", "test_cleaned.csv"))
+data <- read_csv(here("data", "processed", "clean_test_data.csv"))
 
 set.seed(100)
 

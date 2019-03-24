@@ -13,8 +13,8 @@ clean_data <- function(dataset){
 
 clean_data(merged_dataset) %>%
   select(-reanalysis_sat_precip_amt_mm) %>%
-  write_csv(here("data", "processed", "training.csv"))
+  write_csv(here("data", "processed", "clean_training_data.csv"))
 
 clean_data(test) %>%
   select(-reanalysis_sat_precip_amt_mm) %>%
-  write_csv(here("data", "processed", "test_cleaned.csv"))
+  write_csv(here("data", "processed", "clean_test_data.csv"))
