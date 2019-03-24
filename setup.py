@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='drivendata competition on disease spread prediction',
-    author='caroline, ods',
+    author='Optimistic Data Spirit',
     license='',
 )

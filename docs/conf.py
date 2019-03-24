@@ -186,7 +186,7 @@ latex_documents = [
     ('index',
      'dengai.tex',
      u'dengai Documentation',
-     u"caroline, ods", 'manual'),
+     u"Optimistic Data Spirit", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -216,7 +216,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'dengai', u'dengai Documentation',
-     [u"caroline, ods"], 1)
+     [u"Optimistic Data Spirit"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -230,7 +230,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'dengai', u'dengai Documentation',
-     u"caroline, ods", 'dengai',
+     u"Optimistic Data Spirit", 'dengai',
      'drivendata competition on disease spread prediction', 'Miscellaneous'),
 ]
 
