@@ -35,7 +35,6 @@ train <- training %>%
       ) %>%
   mutate_if(is.character, as.factor)
 
-
 model <- randomForest(total_cases ~ ., data = train, ntree = 500, mtry = 6, importance = TRUE)
 importance(model)
 

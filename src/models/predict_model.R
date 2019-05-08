@@ -32,8 +32,8 @@ data <- data %>%
     station_min_temp_c,
     station_precip_mm
   ) %>%
-  mutate_if(is.character, as.factor)
-
+  mutate_if(is.character, as.factor) 
+  
 model <- readRDS(here("models", "trained_model_with_random_forest.rds"))
 
 predictions <- predict(model, data, type = "response", norm.votes = TRUE, predict.all = FALSE, proximity = FALSE, nodes = FALSE)
